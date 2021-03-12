@@ -1,0 +1,40 @@
+<div>
+  <mat-toolbar color="primary"
+    ><mat-icon>mode</mat-icon>
+    <h1>Edit Course</h1></mat-toolbar
+  >
+  <div mat-dialog-content id="form">
+    <form [formGroup]="dialogformgroup">
+      <div>
+        <mat-form-field>
+          <label><b>CourseName</b></label>
+          <input matInput formControlName="courseName" />
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <label><b>courseDescription</b></label>
+          <input matInput formControlName="courseDescription" />
+        </mat-form-field>
+      </div>
+      <div fxLayout="row" fxLayoutAlign="space-evenly center">
+        <mat-form-field>
+          <label><b>prerequisite</b></label>
+          <input matInput formControlName="prerequisite" />
+        </mat-form-field>
+        <!-- <mat-form-field>
+          <label><b>imageURL</b></label>
+          <input matInput formControlName="imageUrl" />
+        </mat-form-field> -->
+      </div>
+
+      <div
+        mat-dialog-actions
+        fxLayout="row"
+        fxLayoutAlign="space-evenly center"
+      >
+        <button mat-button (click)="close()">Close</button>
+        <button mat-button cdkFocusInitial (click)="edit()">Ok</button>
+      </div>
+    </form>
+  </div>
+</div>

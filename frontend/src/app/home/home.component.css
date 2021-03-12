@@ -1,0 +1,55 @@
+header {
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  transition: all 250ms ease-in-out;
+}
+/* .main-header {
+  @extend header;
+  &.hidden{
+    opacity: 0;
+  }
+}
+.search-block {
+  width: 0%;
+  right: 0;
+  @extend header;
+  background: #fff;
+  &.active{
+    width: 100%;
+} */
+.search-control {
+  flex: 1;
+  font-size: 1rem;
+  border: 0;
+  outline: none;
+  padding-left: 10px;
+}
+
+.mat-list {
+  background-color: white;
+}
+
+.bb {
+  background-color: black;
+  color: white;
+}
+#add {
+  margin-left: 955px;
+  background-color: black;
+}
+
+.dd {
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+#bg {
+  background-color: white;
+}
+#trend {
+  margin-left: 1033px;
+  background-color: black;
+  color: white;
+  width: 130px;
+}

@@ -1,0 +1,90 @@
+.mat-list {
+  background-color: white;
+}
+.example-card {
+  max-width: 400px;
+}
+
+#img1 {
+  margin-bottom: 10px;
+  max-width: 330px;
+  max-height: 330px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+/* .example-card {
+  margin-left: 500px;
+  margin-top: 50px;
+} */
+
+/* .flex-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+} */
+
+mat-card {
+  margin-bottom: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+input {
+  display: block;
+}
+
+.mform {
+  margin-left: 40%;
+}
+
+mat-card img {
+  object-fit: cover; /*this makes the image in src fit to the size specified below*/
+  width: 50%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+  height: 50%;
+  margin-left: 25%;
+}
+
+table,
+th,
+td {
+  margin-left: 10px;
+}
+th,
+td {
+  padding: 10px;
+}
+mat-card img {
+  object-fit: cover;
+  width: 30%;
+  height: 10%;
+  margin-left: 25%;
+}
+
+#buttontable > tr {
+  padding-bottom: 20px;
+  height: 80px;
+}
+
+#pos {
+  margin-top: 0px;
+}
+.my-class {
+  width: 130px !important;
+  min-width: unset !important;
+}
+#shift {
+  margin-left: 10px;
+}

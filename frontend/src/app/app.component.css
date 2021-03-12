@@ -1,0 +1,9 @@
+.title {
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.navbar-nav {
+  margin-left: 700px;
+  background-color: black;
+}
